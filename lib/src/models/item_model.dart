@@ -13,7 +13,7 @@ class ItemModel {
   final String title;
   final int descendants;
 
-  //Named COnstuctor
+  //Named Constuctor
   ItemModel.fromJson(Map<String, dynamic> parsedJson)
       : id = parsedJson['id'],
         deleted = parsedJson['deleted'],
